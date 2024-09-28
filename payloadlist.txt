@@ -1,0 +1,19 @@
+<script>alert('XSS Test 1');</script>
+
+<img src=x onerror=alert('XSS Test 2')>
+
+<svg onload=alert('XSS Test 3')>
+
+<body onload=alert('XSS Test 4')>
+
+<iframe src="javascript:alert('XSS Test 5')"></iframe>
+
+<a href="javascript:alert('XSS Test 6')">Click me</a>
+
+<input type="text" value="<script>alert('XSS Test 7')</script>">
+
+<script>document.write('<img src=x onerror=alert("XSS Test 8")>');</script>
+
+<meta http-equiv="refresh" content="0;url=javascript:alert('XSS Test 9');">
+
+<style>@import'javascript:alert("XSS Test 10")';</style>

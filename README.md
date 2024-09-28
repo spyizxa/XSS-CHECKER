@@ -23,6 +23,12 @@ Set secure cookie flags.
 
 
 ## USAGE?
-```git clone...
+```git clone https://github.com/spyizxa/XSS-CHECKER.git```
 
-```cd
+```cd XSS-CHECKER```
+
+```python3 main.py```
+
+### Enter the target site and watch what happens ;)
+
+## [TELEGRAM](https://www.t.me/zeroexploits)
